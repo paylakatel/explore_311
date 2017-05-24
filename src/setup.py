@@ -6,9 +6,9 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 
-setup(name='cluster_311',
+setup(name='clustering',
       version='0',
-      description='cluster 311',
+      description='clustering',
       url='https://github.com/cityofboston/<boston_analytics_example>',
       author='Kayla Patel',
       author_email='paylakatel@gmail.com',

@@ -1,5 +1,6 @@
 name: gis
 channels:
+- ioos
 - bokeh
 - conda-forge
 - defaults
@@ -92,6 +93,7 @@ dependencies:
 - qtconsole=4.3.0=py36_0
 - readline=6.2=0
 - requests=2.13.0=py36_0
+- rtree=0.8.3=py36_0
 - s3fs=0.0.9=py36_0
 - s3transfer=0.1.10=py36_1
 - scikit-learn=0.18.1=np112py36_blas_openblas_200
@@ -129,9 +131,11 @@ dependencies:
 - numba=0.32.0=np112py36_0
 - odo=0.5.0=py36_1
 - xlsxwriter=0.9.6=py36_0
+- libspatialindex=1.8.5=0
 - pip:
   - click-plugins==1.0.3
   - cligj==0.4.0
+  - clustering==0
   - descartes==1.1.0
   - fiona==1.7.6
   - geopandas==0.2.1

@@ -1,4 +1,4 @@
-from cluster_311 import get_data
+from clustering.clustering import get_data
 
 url='https://data.boston.gov/api/action/datastore_search?resource_id=2968e2c0-d479-49ba-a884-4ef523ada3c0'
 key1 = "result"
